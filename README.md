@@ -31,7 +31,7 @@ Zade rend la cybersécurité accessible à tous en permettant aux assistants IA 
 
 - 🔥 **Accès matériel complet** via le mode privilégié Docker
 - 🛡️ **Sécurité intégrée** avec validation des commandes dangereuses
-- 🚀 **Interface MCP moderne** compatible avec Cline, Claude Desktop, Roo, Kilo Code et autres clients MCP
+- 🚀 **Interface MCP moderne** compatible avec Cline, Claude Desktop, Roo Code, Kilo Code et autres clients MCP
 - 📦 **Conteneur persistant** pour des sessions de travail continues
 - 🔧 **Gestion automatique** des conteneurs Kali Linux
 - 📊 **Monitoring en temps réel** de l'état des conteneurs
@@ -269,13 +269,13 @@ Ce projet est sous licence [MIT](LICENSE) - voir le fichier LICENSE pour les dé
 
 ## 🙏 Remerciements
 
-- [Model Context Protocol](https://modelcontextprotocol.io/) pour le framework MCP
-- [Docker](https://www.docker.com/) pour la technologie de conteneurisation
-- [Kali Linux](https://www.kali.org/) pour l'environnement de sécurité
-- [Cline](https://cline.ai/) pour l'intégration parfaite
-- [Claude Desktop](https://claude.ai/) pour l'interface native
-- [Roo](https://jina.ai/) pour l'agent de recherche intelligent
-- [Kilo Code](https://kilo.codes/) pour l'éditeur de code léger
+- [Model Context Protocol](https://modelcontextprotocol.io/)
+- [Docker](https://www.docker.com/)
+- [Kali Linux](https://www.kali.org/)
+- [Cline](https://cline.ai/)
+- [Claude Desktop](https://claude.ai/)
+- [Roo Code](https://marketplace.visualstudio.com/items?itemName=RooVeterinary.roo-code)
+- [Kilo Code](https://kilo.codes/)
 
 
 ---
