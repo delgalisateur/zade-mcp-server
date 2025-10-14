@@ -274,11 +274,6 @@ Ce projet est sous licence [MIT](LICENSE) - voir le fichier LICENSE pour les dé
 - [Kali Linux](https://www.kali.org/) pour l'environnement de sécurité
 - [Cline](https://cline.ai/) pour l'intégration parfaite
 
-## 📞 Support
-
-- 🐛 **Bugs** : [Signaler un problème](https://github.com/delgalisateur/zade-mcp-server/issues)
-- 💡 **Suggestions** : [Discussions GitHub](https://github.com/delgalisateur/zade-mcp-server/discussions)
-- 📧 **Contact** : contact@zade.dev
 
 ---
 
