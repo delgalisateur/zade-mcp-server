@@ -301,23 +301,41 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
       }
 
       case "stop_kali_container": {
-        if (kaliContainer) {
-          await kaliContainer.stop();
-          await kaliContainer.remove({ force: true });
-          kaliContainer = null;
-          return {
-            content: [{
-              type: "text",
-              text: "✅ Conteneur Kali Linux arrêté et supprimé avec succès!"
-            }]
-          };
-        } else {
-          return {
-            content: [{
-              type: "text",
-              text: "ℹ️ Aucun conteneur Kali Linux n'est actuellement en cours d'exécution"
-            }]
-          };
+        try {
+          // Vérifier si le conteneur existe dans Docker
+          const containers = await docker.listContainers({ all: true });
+          const existingContainer = containers.find((c: any) => c.Names.includes(`/${CONTAINER_NAME}`));
+          
+          if (existingContainer) {
+            const container = docker.getContainer(existingContainer.Id);
+            
+            if (existingContainer.State === 'running') {
+              await container.stop();
+            }
+            
+            await container.remove({ force: true });
+            kaliContainer = null;
+            
+            return {
+              content: [{
+                type: "text",
+                text: "✅ Conteneur Kali Linux arrêté et supprimé avec succès!"
+              }]
+            };
+          } else {
+            return {
+              content: [{
+                type: "text",
+                text: "ℹ️ Aucun conteneur Kali Linux trouvé. Utilisez 'start_kali_container' pour en créer un."
+              }]
+            };
+          }
+        } catch (error) {
+          console.error("[MCP] Erreur lors de l'arrêt du conteneur:", error);
+          throw new McpError(
+            ErrorCode.InternalError,
+            `Erreur lors de l'arrêt du conteneur: ${error}`
+          );
         }
       }
 
