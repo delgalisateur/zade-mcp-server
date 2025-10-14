@@ -1,7 +1,8 @@
 {
   "name": "zade-mcp-server",
   "version": "1.0.0",
-  "description": "Transform your LLM into a cybersecurity agent - Pentesting, Bug Bounty, Red Team, Purple Team, Ethical Hacking automation tool",
+  "type": "module",
+  "description": "ZADE : The Cybersecurity Agent - Transform your LLM into a cybersecurity agent - Pentesting, Bug Bounty, Red Team, Purple Team, Ethical Hacking automation tool",
   "main": "build/index.js",
   "bin": {
     "zade": "./build/index.js"

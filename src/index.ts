@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 /**
- * Zade MCP Server
+ * ZADE : The Cybersecurity Agent
  * Ce serveur MCP permet d'interagir avec un conteneur Kali Linux via Docker Desktop
  * Il offre un accès complet au matériel de la machine hôte
  */

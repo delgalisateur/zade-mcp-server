@@ -1,8 +1,8 @@
-# 🚀 Zade MCP Server
+# 🚀 ZADE : The Cybersecurity Agent
 
 <div align="center">
 
-![Zade Logo](https://img.shields.io/badge/Zade-MCP%20Server-blue?style=for-the-badge&logo=docker&logoColor=white)
+![Zade Logo](https://img.shields.io/badge/ZADE-The%20Cybersecurity%20Agent-blue?style=for-the-badge&logo=docker&logoColor=white)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 [![Node.js Version](https://img.shields.io/badge/node-%3E%3D18.0.0-brightgreen?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
