@@ -1,4 +1,4 @@
-# 🚀 ZADE : The Cybersecurity Agent
+# ZADE : The Cybersecurity Agent
 
 <div align="center">
 
