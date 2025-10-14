@@ -327,13 +327,23 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
           const kaliContainerInfo = containers.find((c: any) => c.Names.includes(`/${CONTAINER_NAME}`));
           
           if (kaliContainerInfo) {
+            // Vérifications sécurisées des propriétés
+            const id = kaliContainerInfo.Id ? kaliContainerInfo.Id.substring(0, 12) : "Inconnu";
+            const name = (kaliContainerInfo.Names && kaliContainerInfo.Names.length > 0) ? kaliContainerInfo.Names[0] : "Inconnu";
+            const state = kaliContainerInfo.State || "Inconnu";
+            const image = kaliContainerInfo.Image || "Inconnu";
+            const created = kaliContainerInfo.Created || "Inconnu";
+            const ports = (kaliContainerInfo.Ports && Array.isArray(kaliContainerInfo.Ports) && kaliContainerInfo.Ports.length > 0) 
+              ? JSON.stringify(kaliContainerInfo.Ports) 
+              : "Aucun";
+            
             const status = `📊 Statut du conteneur Kali Linux:\n\n` +
-                          `🆔 ID: ${kaliContainerInfo.Id.substring(0, 12)}\n` +
-                          `🏷️  Nom: ${kaliContainerInfo.Names[0]}\n` +
-                          `🟢 État: ${kaliContainerInfo.State}\n` +
-                          `🖼️  Image: ${kaliContainerInfo.Image}\n` +
-                          `⏰ Créé: ${kaliContainerInfo.Created}\n` +
-                          `🌐 Ports: ${kaliContainerInfo.Ports.length > 0 ? JSON.stringify(kaliContainerInfo.Ports) : "Aucun"}`;
+                          `🆔 ID: ${id}\n` +
+                          `🏷️  Nom: ${name}\n` +
+                          `🟢 État: ${state}\n` +
+                          `🖼️  Image: ${image}\n` +
+                          `⏰ Créé: ${created}\n` +
+                          `🌐 Ports: ${ports}`;
             
             return {
               content: [{
@@ -350,6 +360,7 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
             };
           }
         } catch (error) {
+          console.error("[MCP] Erreur détaillée dans get_container_status:", error);
           throw new McpError(
             ErrorCode.InternalError,
             `Erreur lors de la vérification du statut: ${error}`
