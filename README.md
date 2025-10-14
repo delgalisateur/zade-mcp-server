@@ -85,7 +85,7 @@ npm install -g zade-mcp-server
 ### Installation depuis les sources
 
 ```bash
-git clone https://github.com/zade-mcp/zade-mcp-server.git
+git clone https://github.com/delgalisateur/zade-mcp-server.git
 cd zade-mcp-server
 npm install
 npm run build
@@ -248,7 +248,7 @@ Nous accueillons avec plaisir les contributions ! Voici comment participer :
 ### Développement local
 
 ```bash
-git clone https://github.com/zade-mcp/zade-mcp-server.git
+git clone https://github.com/delgalisateur/zade-mcp-server.git
 cd zade-mcp-server
 npm install
 npm run dev  # Mode développement avec recompilation automatique
@@ -276,8 +276,8 @@ Ce projet est sous licence [MIT](LICENSE) - voir le fichier LICENSE pour les dé
 
 ## 📞 Support
 
-- 🐛 **Bugs** : [Signaler un problème](https://github.com/zade-mcp/zade-mcp-server/issues)
-- 💡 **Suggestions** : [Discussions GitHub](https://github.com/zade-mcp/zade-mcp-server/discussions)
+- 🐛 **Bugs** : [Signaler un problème](https://github.com/delgalisateur/zade-mcp-server/issues)
+- 💡 **Suggestions** : [Discussions GitHub](https://github.com/delgalisateur/zade-mcp-server/discussions)
 - 📧 **Contact** : contact@zade.dev
 
 ---
@@ -286,6 +286,6 @@ Ce projet est sous licence [MIT](LICENSE) - voir le fichier LICENSE pour les dé
 
 **⭐ Si ce projet vous plaît, n'hésitez pas à laisser une étoile !**
 
-Made with ❤️ by the Zade Team
+Made with ❤️ by delgalisateur
 
 </div>
