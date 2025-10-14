@@ -7,15 +7,25 @@
 [![Node.js Version](https://img.shields.io/badge/node-%3E%3D18.0.0-brightgreen?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 
-**🐧 Un puissant serveur MCP pour interagir avec des conteneurs Kali Linux via Docker Desktop**
+**🔥 Transformez votre LLM en agent de cybersécurité professionnel**
 
-*Accès matériel complet • Sécurité renforcée • Interface intuitive*
+*Pentesting • Bug Bounty • Hacking éthique • Red Team • Purple Team • Sécurité offensive*
 
 </div>
 
 ## 📖 Description
 
-**Zade** est un serveur MCP (Model Context Protocol) qui permet aux assistants IA d'interagir directement avec des conteneurs Kali Linux via Docker Desktop. Il offre un accès matériel complet à la machine hôte tout en maintenant des mesures de sécurité robustes.
+**Zade** est un serveur MCP (Model Context Protocol) révolutionnaire qui **transforme n'importe quel LLM en un agent de cybersécurité autonome**. En fournissant un accès complet à des conteneurs Kali Linux via Docker Desktop, Zade permet à votre assistant IA d'exécuter des outils de pentesting, de bug bounty, et de hacking éthique avec un accès matériel total à la machine hôte.
+
+### 🎯 Mission : Démocratiser l'automatisation en cybersécurité
+
+Zade rend la cybersécurité accessible à tous en permettant aux assistants IA de :
+- **Lancer des scans de vulnérabilités automatisés**
+- **Exécuter des outils de pentesting professionnels**
+- **Analyser des rapports de sécurité**
+- **Découvrir des failles en bug bounty**
+- **Simuler des attaques Red Team**
+- **Effectuer des analyses Purple Team**
 
 ### ✨ Fonctionnalités principales
 
@@ -26,13 +36,37 @@
 - 🔧 **Gestion automatique** des conteneurs Kali Linux
 - 📊 **Monitoring en temps réel** de l'état des conteneurs
 
-## 🎯 Cas d'usage
+## 🎯 Cas d'usage : Transformez votre LLM en agent de cybersécurité
 
-- **Pentesting automatisé** avec assistance IA
-- **Analyse de sécurité** et tests d'intrusion
-- **Apprentissage** des outils de cybersécurité
-- **Automatisation** des tâches de sécurité
-- **Expérimentation** dans un environnement isolé
+### 🔴 **Red Team & Pentesting**
+- **Reconnaissance automatisée** : `nmap`, `subfinder`, `amass`
+- **Exploitation de vulnérabilités** : Metasploit, Burp Suite
+- **Post-exploitation** : Maintien d'accès, mouvement latéral
+- **Rapports d'audit** automatisés et détaillés
+
+### 🛡️ **Purple Team**
+- **Simulation d'attaques** et détection par les défenses
+- **Tests des SIEM/EDR** avec des scénarios réalistes
+- **Validation des playbooks** de réponse à incidents
+- **Amélioration continue** des postures de sécurité
+
+### 🔍 **Bug Bounty & Hacking Éthique**
+- **Scans automatisés** de vulnérabilités web
+- **Fuzzing** intelligent d'applications
+- **Analyse de code** pour trouver des failles
+- **Reporting** automatisé pour plateformes bug bounty
+
+### 🎓 **Formation & Apprentissage**
+- **Labs interactifs** guidés par l'IA
+- **Scénarios d'attaque** réels et safe
+- **Corrections** et explications détaillées
+- **Progression adaptative** selon le niveau
+
+### 🤖 **Automatisation SOC**
+- **Tri des alertes** et priorisation
+- **Enrichissement** des IOC (Indicators of Compromise)
+- **Réponse automatisée** aux incidents simples
+- **Corrélation** d'événements multi-sources
 
 ## 🚀 Installation
 

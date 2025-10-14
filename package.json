@@ -1,7 +1,7 @@
 {
   "name": "zade-mcp-server",
   "version": "1.0.0",
-  "description": "🚀 Zade MCP Server - Interact with Kali Linux containers via Docker Desktop with full hardware access",
+  "description": "Transform your LLM into a cybersecurity agent - Pentesting, Bug Bounty, Red Team, Purple Team, Ethical Hacking automation tool",
   "main": "build/index.js",
   "bin": {
     "zade": "./build/index.js"
@@ -27,26 +27,32 @@
     "kali-linux",
     "cybersecurity",
     "pentesting",
-    "cli",
+    "bug-bounty",
+    "red-team",
+    "purple-team",
+    "ethical-hacking",
+    "security",
     "ai",
     "llm",
     "automation",
-    "security-tools"
+    "security-tools",
+    "hacking",
+    "vulnerability-assessment",
+    "penetration-testing"
   ],
   "author": {
-    "name": "Zade Team",
-    "email": "contact@zade.dev",
-    "url": "https://github.com/zade-mcp/zade-mcp-server"
+    "name": "delgalisateur",
+    "url": "https://github.com/delgalisateur"
   },
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/zade-mcp/zade-mcp-server.git"
+    "url": "https://github.com/delgalisateur/zade-mcp-server.git"
   },
   "bugs": {
-    "url": "https://github.com/zade-mcp/zade-mcp-server/issues"
+    "url": "https://github.com/delgalisateur/zade-mcp-server/issues"
   },
-  "homepage": "https://github.com/zade-mcp/zade-mcp-server#readme",
+  "homepage": "https://github.com/delgalisateur/zade-mcp-server#readme",
   "engines": {
     "node": ">=18.0.0"
   },
