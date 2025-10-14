@@ -1,0 +1,65 @@
+{
+  "name": "zade-mcp-server",
+  "version": "1.0.0",
+  "description": "🚀 Zade MCP Server - Interact with Kali Linux containers via Docker Desktop with full hardware access",
+  "main": "build/index.js",
+  "bin": {
+    "zade": "./build/index.js"
+  },
+  "files": [
+    "build",
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc && node -e \"require('fs').chmodSync('build/index.js', '755')\"",
+    "dev": "tsc --watch",
+    "start": "node build/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "npm run build",
+    "clean": "rm -rf build"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "docker",
+    "kali-linux",
+    "cybersecurity",
+    "pentesting",
+    "cli",
+    "ai",
+    "llm",
+    "automation",
+    "security-tools"
+  ],
+  "author": {
+    "name": "Zade Team",
+    "email": "contact@zade.dev",
+    "url": "https://github.com/zade-mcp/zade-mcp-server"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zade-mcp/zade-mcp-server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zade-mcp/zade-mcp-server/issues"
+  },
+  "homepage": "https://github.com/zade-mcp/zade-mcp-server#readme",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.6.0",
+    "dockerode": "^4.0.2"
+  },
+  "devDependencies": {
+    "@types/dockerode": "^3.3.31",
+    "@types/node": "^20.11.24",
+    "typescript": "^5.3.3"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
