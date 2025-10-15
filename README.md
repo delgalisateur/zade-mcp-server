@@ -1,4 +1,4 @@
-# ZADE : The Cybersecurity Agent
+# ZADE : Agent de Cybersécurité Autonome
 
 <div align="center">
 
