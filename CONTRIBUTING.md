@@ -281,14 +281,6 @@ Les contributeurs seront mentionnés dans :
 - Les notes de version
 - Les releases GitHub
 
-## 📞 Support
-
-Si vous avez des questions :
-
-- Ouvrez une discussion sur GitHub
-- Contactez-nous à contact@zade.dev
-- Rejoignez notre [Discord](https://discord.gg/zade)
-
 ---
 
 Merci de contribuer à Zade ! 🎉
